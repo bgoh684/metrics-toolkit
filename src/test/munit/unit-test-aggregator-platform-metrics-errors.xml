@@ -306,7 +306,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<munit:after-test name="unit-test-aggregator-platform-metrics-errors-after-test" doc:id="d6a0610d-2cf2-4841-bffc-b15d1abd1ed2" >
 		<remove-variable doc:name="Remove Variable" doc:id="d35092c1-87d9-44ae-a7f8-f4ab38c37e22" variableName="expectedResponse"/>
 	</munit:after-test>
-	<munit:test name="unit-test-aggregator-platform-metrics-errors-test" doc:id="10bb476e-e48f-417d-8c95-d699fdf8bbc2" description="Test">
+	<munit:test name="unit-test-aggregator-platform-metrics-errors-test" doc:id="10bb476e-e48f-417d-8c95-d699fdf8bbc2" description="Test" ignore="true">
 		<munit:execution >
 			<ee:transform doc:name="Set Mocked Attributes" doc:id="5ce998a4-7d6f-41fd-91de-a8b0d9fbadf3" >
 				<ee:message >

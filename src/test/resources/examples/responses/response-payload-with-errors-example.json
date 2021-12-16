@@ -328,17 +328,17 @@
       }
     },
     "errors": [
-      "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
+      "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
       [
         ""
       ],
       [
-        "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
+        "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
         [
           ""
         ],
         [
-          "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
+          "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
         ]
       ],
       [
@@ -351,25 +351,25 @@
         ""
       ],
       [
-        "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
+        "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: ",
         [
-          "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
+          "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
         ],
         [
-          "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
+          "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
         ],
         [
-          "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
+          "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
         ]
       ],
       [
         ""
       ],
       [
-        "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted\n\t1: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted\n\t2: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted\n\t3: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted"
+        "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted. Last exception message was: \r\n\t1: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted. Last exception message was: \r\n\t2: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted. Last exception message was: \r\n\t3: org.mule.runtime.core.api.retry.policy.RetryPolicyExhaustedException: 'until-successful' retries exhausted. Last exception message was: ","'until-successful' retries exhausted. Last exception message was: "
       ],
       [
-        "Exception(s) were found for route(s): \n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
+        "Exception(s) were found for route(s): \r\n\t0: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t1: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t2: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: \r\n\t3: org.mule.runtime.core.internal.processor.interceptor.InterceptionException: "
       ]
     ]
   }
