@@ -1,14 +1,14 @@
 auth:
   
-  orgId: "![yqKEWZ57M3XUasumfcwhVykLsfUM6yOEv2oEJ04vxZc=]"
+  orgId: "0dd3c5b9-3967-421d-bf80-4b9b08fdd2ca"
   
   # If auth mode = platform-credentials (ignored, otherwise):
   username: "![Zjv8nFIUwDlayZ6O7DP31p1zQRfrwfjbkmi5DyNiD38=]"
   password: "![yqKEWZ57M3XUasumfcwhV35QQl9B5mf5GBon8eY/x8o=]"
   
   # If auth mode = connected-app-credentials (ignored, otherwise):
-  clientId: "![Zjv8nFIUwDlayZ6O7DP31p1zQRfrwfjbkmi5DyNiD38=]"
-  clientSecret: "![yqKEWZ57M3XUasumfcwhV35QQl9B5mf5GBon8eY/x8o=]"
+  clientId: "0ad123d514b84c5cb1250d554c0e7834"
+  clientSecret: "050aaFf14061444087f774f04C343665"
      
 ignoreLists:
   organizations: ""  #Array: comma-separated values 'orgId1,orgId2'
@@ -17,8 +17,8 @@ splunk:
   token: "![yqKEWZ57M3XUasumfcwhV5A3JMblY6G4MCwHM5j5VuA=]"
   
 elk:
-  user: "user"
-  password: "password"
+  user: "elastic"
+  password: "0jB5DLolVmGRvS9ys7Xibf69"
 
 mongodb:
   username: "![/MYApdJC2Oq9ALH/X9E4rQ==]"

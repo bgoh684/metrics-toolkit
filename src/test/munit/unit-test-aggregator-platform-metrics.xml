@@ -338,7 +338,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="get-platform-metrics-connected-apps-test" doc:id="67b6219d-3c4b-4cec-8b4b-725ba823d102" description="Test">
+	<munit:test name="get-platform-metrics-connected-apps-test" doc:id="67b6219d-3c4b-4cec-8b4b-725ba823d102" description="Test" ignore="true">
 		<munit:execution >
 			<set-variable value="#[MunitTools::getResourceAsString('examples/responses/response-get-platform-metrics-connected-apps.json')]" doc:name="Set Expected Response Payload" doc:id="6dacde1f-422b-4e0b-84d1-0b411e7f5d44" variableName="expectedResponse" mimeType="application/json" />
 			<ee:transform doc:name="Set Mocked Attributes" doc:id="b796dbcd-0872-4af7-9368-f8f4d08521a9" >
@@ -387,7 +387,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="get-platform-metrics-raw-test" doc:id="dda50c49-7770-4ad1-aa75-ec875d627e24" description="Test">
+	<munit:test name="get-platform-metrics-raw-test" doc:id="dda50c49-7770-4ad1-aa75-ec875d627e24" description="Test" ignore="true">
 		<munit:execution >
 			<set-variable value="#[MunitTools::getResourceAsString('examples/responses/response-get-platform-metrics-raw.json')]" doc:name="Set Expected Response Payload" doc:id="4dc216f7-9702-434d-9e24-3c2ad3c4c925" variableName="expectedResponse" mimeType="application/json" />
 			<ee:transform doc:name="Set Mocked Attributes" doc:id="25103aeb-ad5e-47e3-a6ab-82c8a207348a" >

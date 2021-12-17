@@ -25,13 +25,13 @@ poller:
     #https://www.freeformatter.com/cron-expression-generator-quartz.html
     timezone: "GMT-3"
 auth:
-  mode: "platform-credentials" # valid options are: platform-credentials or connected-app-credentials
+  mode: "connected-app-credentials" # valid options are: platform-credentials or connected-app-credentials
   
 aggregation:
   raw: "false"
   
 loader:
-  strategy: "logger"
+  strategy: "elk"
 
 # Enabled Collectors
 #
@@ -79,9 +79,9 @@ mongodb:
   collection: "metrics"
             
 elk:
-  host: "localhost"
-  port: "9200"
-  protocol: "HTTP"
+  host: "https://for-chorus.es.ap-southeast-2.aws.found.io"
+  port: "9243"
+  protocol: "HTTPS"
   index:
     metrics: "metrics"
     benefits: "platformbenefits"     
