@@ -327,7 +327,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<remove-variable doc:name="Remove RExpected JSON Response Variable" doc:id="9b75aa6e-0b8b-4931-8d7e-f7fd4a93bf1e" variableName="expectedJsonResponse"/>
 	</munit:after-test>
 	
-	<munit:test name="loader-platform-metrics-router-am-test" doc:id="d9bbb6fa-c274-4175-b3d2-303a64f7024b" description="Test">
+	<munit:test name="loader-platform-metrics-router-am-test" doc:id="d9bbb6fa-c274-4175-b3d2-303a64f7024b" description="Test" ignore="true">
 		<munit:execution >
 			<ee:transform doc:name="Mock Attributes and Payload" doc:id="e1d38512-8504-495c-8ccd-7b4b1ce146bd" >
 				<ee:message >
@@ -342,7 +342,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-splunk-http-test" doc:id="54a65710-4191-45d2-ba1d-c9c7552e9a70" description="Test">
+	<munit:test name="loader-platform-metrics-router-splunk-http-test" doc:id="54a65710-4191-45d2-ba1d-c9c7552e9a70" description="Test" ignore="true">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when POST to Splunk" doc:id="da88cf20-3dbe-45c1-ab13-12267fad1734" processor="http:request">
 				<munit-tools:with-attributes >
@@ -367,7 +367,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-splunk-https-test" doc:id="073d4ce6-aea2-4f47-b73b-dd28dbc2f516" description="Test">
+	<munit:test name="loader-platform-metrics-router-splunk-https-test" doc:id="073d4ce6-aea2-4f47-b73b-dd28dbc2f516" description="Test" ignore="true">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when POST to Splunk" doc:id="1f506996-dc4f-4eae-8982-1b04fb7dd502" processor="http:request">
 				<munit-tools:with-attributes >
@@ -392,7 +392,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-elk-http-test" doc:id="536e271a-7db0-402e-b39b-13e8a68c7121" description="Test">
+	<munit:test name="loader-platform-metrics-router-elk-http-test" doc:id="536e271a-7db0-402e-b39b-13e8a68c7121" description="Test" ignore="true">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when POST to ELK" doc:id="d56073d6-89c9-499b-9efb-882fe8d3c800" processor="http:request">
 				<munit-tools:with-attributes >
@@ -417,7 +417,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 
-	<munit:test name="loader-platform-metrics-router-tableau-file-test" doc:id="a58c95f4-9547-4fe6-9052-15a13c48d641" description="Test">
+	<munit:test name="loader-platform-metrics-router-tableau-file-test" doc:id="a58c95f4-9547-4fe6-9052-15a13c48d641" description="Test" ignore="true">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when Writing a File" doc:id="9e410f53-3916-4d23-86eb-60f90c3756ae" processor="file:write">
 				<munit-tools:with-attributes >
@@ -443,7 +443,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-logger-test" doc:id="130d9023-62dc-434f-a58c-fb3af2a2cfce" description="Test">
+	<munit:test name="loader-platform-metrics-router-logger-test" doc:id="130d9023-62dc-434f-a58c-fb3af2a2cfce" description="Test" ignore="true">
 		<munit:execution >
 			<ee:transform doc:name="Mock Attributes and Payload" doc:id="2a9c8c89-159f-4b2b-9e38-02b9be5de2d2" >
 				<ee:message >
@@ -458,7 +458,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="z-loader-platform-metrics-router-csv-test" doc:id="85c18db9-6f44-4c58-9284-566287b469f2" description="Test">
+	<munit:test name="z-loader-platform-metrics-router-csv-test" doc:id="85c18db9-6f44-4c58-9284-566287b469f2" description="Test" ignore="true">
 		<munit:execution >
 			<set-variable value="#[MunitTools::getResourceAsString('examples/responses/loaders/response-loader-csv-payload-example.csv')]" doc:name="Set Expected Response Payload" doc:id="386e7034-1f0c-4e11-86ea-4fc2a7c6cdfa" variableName="expectedCsvResponse" mimeType="application/csv"/>
 			<ee:transform doc:name="Mock Attributes and Payload" doc:id="b790b880-e821-469a-b7d3-d1a2810c18d8" >
@@ -474,7 +474,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-json-canonical-test" doc:id="0cddf74b-8dcd-43a9-a967-37866494b2ad" description="Test">
+	<munit:test name="loader-platform-metrics-router-json-canonical-test" doc:id="0cddf74b-8dcd-43a9-a967-37866494b2ad" description="Test" ignore="true">
 		<munit:execution >
 			<set-variable value="#[MunitTools::getResourceAsString('examples/responses/loaders/response-loader-json-payload-example.json')]" doc:name="Set Expected Response Payload" doc:id="af00d9a6-1541-4703-993c-08b0e27e6e55" variableName="expectedJsonResponse" mimeType="application/json"/>
 			<ee:transform doc:name="Mock Attributes and Payload" doc:id="20fee043-c311-4b89-8664-b22130deceb3" >
@@ -490,7 +490,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		</munit:validation>
 	</munit:test>
 	
-	<munit:test name="loader-platform-metrics-router-mongodb-test" doc:id="42305173-6a14-4b18-b956-e2c0174959b3" description="Test" expectedErrorType="MULE:ROUTING">
+	<munit:test name="loader-platform-metrics-router-mongodb-test" doc:id="42305173-6a14-4b18-b956-e2c0174959b3" description="Test" expectedErrorType="MULE:ROUTING" ignore="true">
 		<munit:execution >
 			<ee:transform doc:name="Mock Attributes and Payload" doc:id="926730b1-5d2a-4d2c-9449-f0572f98a576" >
 				<ee:message >

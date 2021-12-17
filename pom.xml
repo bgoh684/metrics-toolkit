@@ -99,6 +99,9 @@
 							<ignoreFlow>api-call-coreservices-login-cache-flow</ignoreFlow>
 							<ignoreFlow>api-call-analytics-events-flow</ignoreFlow>
 						</ignoreFlows>
+						<ignoreFiles>
+        					<ignoreFile>unit-test-loader-platform-metrics-router.xml</ignoreFile>
+        				</ignoreFiles>
 					</coverage>
 				</configuration>
 			</plugin>
